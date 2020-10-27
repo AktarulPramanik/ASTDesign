@@ -1,0 +1,88 @@
+.container{
+    border:5px solid cRIMSON;
+    width: 900px;
+    height: 380px;
+    padding: 50px;
+    margin: auto;
+    background: #F0FFFF;
+    border-radius: 50PX;
+}
+
+.hide-me {
+	visibility: hidden;
+	width: 40px;
+}
+
+.title {
+	text-align: center;
+	font-family: "Trebuchet MS";
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+	color: white;
+
+}
+
+.row{
+    width: 100%;
+    height: 55px;
+}
+.num-row, .one, .two, .three, .four {
+	margin: 10px 0px 0px 0px;
+}
+
+button {
+	width: 55px;
+	height: 60px;
+	background: BLACK;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	border-radius: 20%;
+	border:none;
+	box-shadow: 4px 4px 1px blue;
+}
+button:active {
+	box-shadow: -10px -10px 5px red, 10px 10px 5px yellow;
+}
+
+
+.special-key {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.tab {
+	width: 130px;
+	border-radius: 10px;
+}
+.caps {
+	width: 120px;
+	border-radius: 10px;
+}
+.ent {
+	width: 120px;
+	border-radius: 10px;
+}
+.back {
+	width: 130px;
+	border-radius: 10px;
+}
+.shift {
+	width: 150px;
+	border-radius: 10px;
+}
+
+.space {
+	width: 310px;
+	border-radius: 10px;
+}
+
+.f {		
+		font-weight: bolder;
+		border-radius: 50%;
+		text-decoration: underline;
+}
+.j {		
+		font-weight: bolder;
+		border-radius: 50%;
+		text-decoration: underline;
+}
