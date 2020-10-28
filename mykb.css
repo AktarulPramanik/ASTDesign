@@ -1,5 +1,5 @@
 .container{
-    border:5px solid cRIMSON;
+    border:5px solid crimson;
     width: 900px;
     height: 380px;
     padding: 50px;
@@ -42,6 +42,10 @@ button {
 }
 button:active {
 	box-shadow: -10px -10px 5px red, 10px 10px 5px yellow;
+	border-radius: 20%;
+	border:none;
+	background: black;
+	color: white;
 }
 
 
